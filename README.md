@@ -14,7 +14,7 @@ se debe codificar lograrán entender los procesos de códigos mucho más fácil.
 
 ## Estandarización para código
 
-* Espaciados, argumentos y parametros
+* [Espaciados, argumentos y parametros](code/espaciados-argumentos-y-parametros.md)
 * Devlaración de variables y funciones
 * Loops e iteraciones
 * Métodos y funciones
