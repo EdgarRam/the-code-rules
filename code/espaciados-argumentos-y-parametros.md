@@ -34,7 +34,7 @@ if ( i !== 1 ) { ... }
 function myFunction ( _param1, _param2, ..., _paramN ) { ... }
 
 // declaración de una función arrow
-const myFunction => () { ... }
+const myFunction => ( _param1, _param2, ..., _paramN ) = { ... }
 
 // ejecutando un método/función
 myFunction( param1, param2, ..., paramN );
