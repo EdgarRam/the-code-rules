@@ -6,26 +6,28 @@ Esta estandarización se debe seguir en todo momento para que los desarrolladore
 
 ```javascript
 // antes y después de un igual
-var i = 0;
+var x = 0;
+let y = 0;
+const z = 0;
 
 // antes y después de un igual-igual-igual
-if ( i === 12 ) { ... }
+if ( x === 12 ) { ... }
 
 // antes y después de un menor que
-if ( i <= 12 ) { ... }
+if ( y <= 12 ) { ... }
 
 // antes y después de un mayor que
-if ( i >= 12 ) { ... }
+if ( z >= 12 ) { ... }
 ```
 
-2.- Siempre se deben escribir triples iguales (cuando aplique). p.e.:
+2.- Siempre se deben escribir triples iguales. p.e.:
 
 ```javascript
 // igual a ...
-if ( i === 1 ) { ... }
+if ( x === 1 ) { ... }
 
 // diferente de
-if ( i !== 1 ) { ... }
+if ( y !== 1 ) { ... }
 ```
 3.- Siempre debe existir un espacio antes y uno después de cada parametro en un método o condicional. p.e.:
 
@@ -34,7 +36,7 @@ if ( i !== 1 ) { ... }
 function myFunction ( _param1, _param2, ..., _paramN ) { ... }
 
 // declaración de una función arrow
-const myFunction => ( _param1, _param2, ..., _paramN ) = { ... }
+const myFunction = ( _param1, _param2, ..., _paramN ) => { ... }
 
 // ejecutando un método/función
 myFunction( param1, param2, ..., paramN );
@@ -63,4 +65,34 @@ while ( conditionalExpression ) { ... }
 ```javascript
 // declaración de método/función
 function myFunction () { ... }
+```
+
+6.- Los parametros de un método siempre deben iniciar con un guión bajo (_) para poder identificar entre las variables locales y los parametros. p.e.:
+
+```javascript
+// declaración de método
+function myFunction ( _param1, _param2, ..., _paramN ) { ... }
+
+// declaración de una función arrow ( siempre como const )
+const myFunction = () => { ... }
+```
+
+7.- Las funciones arrow deben llevar siempre los parentecis sin importar la cantidad de argumentos que se le pasarán
+
+```javascript
+// si no lleva argumentos
+const myFunction = () => { ... }
+
+// si lleva un sólo argumento
+const myFunction = ( _param1 ) => { ... }
+
+// si lleva N argumentos
+const myFunction = ( _param1, _param2, ..., _paramN ) => { ... }
+```
+
+8.- uando un método se ejecuta, si necesita parametros, estos se deben colocar con un espacio antes del primer parametro, también un espacio después de la coma y un espacio después del último parametro. p.e.:
+
+```javascript
+// ejecución de un método
+myFunction( param1, param2, ..., paramN );
 ```
