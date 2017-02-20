@@ -18,6 +18,7 @@ que este incluye. El formato más común de mensaje de commit es el siguiente:
 <LÍNEA EN BLANCO>
 <pie del mensaje>
 ```
+> _tipos habituales: feat(feature/nueva característica), fix, doc (documentación), style, refactor, test (si faltaban tests), chore (tareas de mantenimiento)_
 
 #### ejemplo:
 
