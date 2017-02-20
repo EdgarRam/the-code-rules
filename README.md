@@ -9,8 +9,8 @@ se debe codificar lograrán entender los procesos de códigos mucho más fácil.
 
 ## Estandarización para GIT
 
-* [Ramas y los formatos de nombres](ramas-y-formatos-de-nombres.md)
-* [Commits y los formatos](commits-y-formatos.md)
+* [Ramas y los formatos de nombres](git/ramas-y-formatos-de-nombres.md)
+* [Commits y los formatos](git/commits-y-formatos.md)
 
 ## Estandarización para código
 
