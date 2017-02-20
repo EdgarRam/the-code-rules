@@ -10,7 +10,7 @@ se debe codificar lograrán entender los procesos de códigos mucho más fácil.
 ## Estandarización para GIT
 
 * [Ramas y los formatos de nombres](ramas-y-formatos-de-nombres.md)
-* Commits y los formatos
+* [Commits y los formatos](commits-y-formatos.md)
 
 ## Estandarización para código
 
@@ -18,3 +18,6 @@ se debe codificar lograrán entender los procesos de códigos mucho más fácil.
 * Devlaración de variables y funciones
 * Loops e iteraciones
 * Métodos y funciones
+
+> _Se debe tener en cuenta que este repo está adaptado a los proyectos personales
+o en los que participo._
