@@ -36,10 +36,10 @@ Los tipos de commits aceptados son:
 - feat
 - fix
 - doc
-- style (para tareas de maquetación)
+- style ( para acomodar/reorganizar/identar código sin cambiar funcionalidad )
 - refactor
-- test (por si faltaban tests)
-- chore (para tareas de mantenimiento)
+- test ( por si faltaban tests )
+- chore ( para tareas de mantenimiento )
 ```
 
 > _Este formato es obligatorio para todas los commits que se tengan que realizar durante el desarrollo._
