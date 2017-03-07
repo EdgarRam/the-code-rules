@@ -38,6 +38,9 @@ function myFunction ( _param1, _param2, ..., _paramN ) { ... }
 // declaración de una función arrow
 const myFunction = ( _param1, _param2, ..., _paramN ) => { ... }
 
+// en typescript
+myFunction ( _param1: string, _param2:number, ..., _paramN:boolean ) { ... }
+
 // ejecutando un método/función
 myFunction( param1, param2, ..., paramN );
 
